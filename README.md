@@ -24,9 +24,6 @@ college-admission-agent/
 └─ templates/
 └─ index.html # Frontend UI
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -36,29 +33,23 @@ IBM_API_KEY=your_ibm_api_key_here
 DEPLOYMENT_ID=your_deployment_id_here
 REGION=us-south
 
-yaml
-Copy
-Edit
+
 > **Important:** Replace `your_ibm_api_key_here` and `your_deployment_id_here` with the credentials from your IBM Cloud Watsonx deployment.
 
 ---
 
 ## Installation
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/your-repo/college-admission-agent.git
    cd college-admission-agent
 Install required packages:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the application:
 
-bash
-Copy
-Edit
+
 python app.py
 Usage
 Open your browser at http://127.0.0.1:5000/
@@ -84,13 +75,7 @@ Comparative analysis of multiple colleges in one chat.
 License
 MIT License
 
-yaml
-Copy
-Edit
 
----
 
-Would you like me to:  
-- **Generate a PDF version of this README for IBM Watsonx upload?**  
-- Or **create a full ZIP package** (code + README + templates)?  
-- Or **both**?
+
+
